@@ -173,6 +173,64 @@
 }
 
 
+
+
+/* bonus extra section styles */
+
+
+.bonus-section-container {
+    background-image: url("../Flower Asset/delivery.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50vw 100vh;
+    margin-bottom: 100px;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+    padding-left: 120px;
+}
+
+.delivery-experts-details {
+    text-align: left;
+    width: 40vw;
+
+}
+
+.delivery-experts-details>h1 {
+    color: #363636e1;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-top: 160px ;
+}
+.delivery-experts-details>p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 25vw;
+}
+
+.bonus-img-container {
+    background-color: #b0c799;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px;
+    height: 300px;
+    width: 240px;
+    margin-top: 270px;
+    margin-right: 620px;
+}
+.bonus-img{
+    height: 300px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+
+
 /* footer styles starts here */
 
 .footer-container {
