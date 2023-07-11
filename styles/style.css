@@ -81,6 +81,7 @@
     align-items: baseline;
     text-align: center;
     gap: 20px;
+    text-decoration: underline;
 
 }
 
@@ -116,8 +117,57 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin-top: 100px;
     padding: 100px 240px;
 }
-#deal-title{
+
+#deal-title {
     color: #E55473;
+}
+
+
+/* instagram section style starts */
+
+.insta-container {
+    margin: 100px 0px;
+    padding: 0px 120px;
+    text-align: center;
+}
+
+.insta-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.insta-images>img {
+    height: 370px;
+    width: 300px;
+}
+
+
+
+/* latest deals styles  */
+
+
+.latest-deals-container {
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0px 120px;
+    border-radius: 5px;
+    padding: 100px 0px;
+    margin-bottom: 100px;
+}
+
+.subscribe>input {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 70px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
 }
